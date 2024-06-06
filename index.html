@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamka's Portofolio</title>
+
+    <!--API google font dan father icon-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <!--navbar sec-->
+
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Hamka<span>ZainulArdhi</span>.</a>
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#menu">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!--navbar sec-->
+
+    <!--home sec-->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          i Design & Build<br />
+          Creative Website
+        </h1>
+        <p></p>
+        <a href="https://wa.me/qr/KFAY37VGG5XQG1" class="cta">Hire Me</a>
+      </main>
+    </section>
+    <!--home sec-->
+
+    <!--menu sec-->
+    <section id="menu" class="menu">
+      <h2>Skills<span> Saya</span></h2>
+      <p>
+        Saya Selalu Ingin Belajar Hal Baru Dan Mengikuti Perkembangan Terbaru
+        Dalam Dunia Web Development. Saya Yakin Dengan Kerja Keras Dan Dedikasi,
+        Saya Dapat Menjadi Web Developer Yang Handal Dan Profesional. Berikut
+        Skills Yang Saya Kuasai
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="5.jpg" alt="chat gpt.png" class="menu-card-img" />
+          <h3 class="menu-card-title">- Corel Draw -</h3>
+          <p class="Menu-card-price">Graphic Visual Designer</p>
+        </div>
+        <div class="menu-card">
+          <img src="6.jpg" alt="chat gpt.png" class="menu-card-img" />
+          <h3 class="menu-card-title">- Canva -</h3>
+          <p class="Menu-card-price">Graphic Visual Designer</p>
+        </div>
+        <div class="menu-card">
+          <img src="4.jpeg" alt="chat gpt.png" class="menu-card-img" />
+          <h3 class="menu-card-title">- ChatGPT -</h3>
+          <p class="Menu-card-priceee">Profesional ChatGPT Prompter</p>
+        </div>
+        <div class="menu-card">
+          <img src="8.jpg" alt="chat gpt.png" class="menu-card-img" />
+          <h3 class="menu-card-title">- Mobile Legends -</h3>
+          <p class="Menu-card-priceee">All Role, Magic chess</p>
+        </div>
+      </div>
+    </section>
+    <!--menu sec-->
+
+    <section id="contact" class="contact">
+      <h2>Kontak<span> Saya</span></h2>
+      <p>
+        Hubungi saya hari ini jika ingin mendiskusikan pemograman bersama dan
+        belajar bersama desain web yang profesional dan efektif.
+      </p>
+      <div class="row">
+        <div class="text">
+          <textarea
+            id="resultMessage"
+            placeholder=" hasil pesan "
+            rows="5"
+            cols="40"
+            readonly
+          ></textarea>
+        </div>
+        <form id="contactForm" action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" id="name" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="calendar"></i>
+            <input type="text" id="birthDate" placeholder="tanggalLahir" />
+          </div>
+          <div class="input-group1">
+            <i data-feather="mail"></i>
+            <input type="text" id="message" placeholder="pesan" />
+          </div>
+          <button type="submit" class="btn">kirim pesan</button>
+        </form>
+      </div>
+    </section>
+
+    <!--footer sec-->
+
+    <footer>
+      <div class="sosial">
+        <a href="https://www.instagram.com/zain.ardhi?igsh=MWJ2cDY5ZHRzemFkeA=="
+          ><i data-feather="instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/profile.php?id=100084272828136&mibextid=ZbWKwL"
+          ><i data-feather="facebook"></i
+        ></a>
+        <a href="https://twitter.com/"><i data-feather="twitter"></i></a>
+        <a
+          href="https://www.linkedin.com/in/hamka-zainulardhi-b470b829b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          ><i data-feather="linkedin"></i
+        ></a>
+        <a href="https://www.youtube.com/"><i data-feather="youtube"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#">Home</a>
+        <a href="#about">Tentang Saya</a>
+        <a href="#menu">Skills</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By <a href="">HAM Zainardhi</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+
+    <!--footer sec-->
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
